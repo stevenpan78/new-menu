@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+}
+body {
+  background: 
+    -webkit-linear-gradient(rgba(5, 610, 255, 0.4), rgba(135, 60, 255, 0.0) 20%),
+    -webkit-linear-gradient(50deg, rgba(120, 155, 255, 0.9) 25%, rgba(255, 160, 65, 0.9) 76%);
+}
+.cf::before, .cf::after {
+  display: table;
+}
+li::before{
+  content: "•";
+  color: yellow;
+}
+
+
+ul{
+  list-style: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
